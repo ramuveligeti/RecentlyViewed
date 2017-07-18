@@ -12,6 +12,13 @@
         "ApexComponent",
         "ApexPage",
         "ApexTrigger",
+        "AuraDefinitionBundle",
+        "ConnectedApp",
+        "CustomApplication",
+        "CustomApplicationComponent",
+        "CustomTab",
+        "FlexiPage",
+        "RemoteSiteSetting",
         "StaticResource"
     ]
 }

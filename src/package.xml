@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>IconUtils</members>
         <members>RecentlyViewedRecords</members>
+        <members>Util_JSONParser</members>
+        <members>Util_JSONParser_Test</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -12,7 +15,15 @@
     </types>
     <types>
         <members>RecentlyViewed</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>RecentlyViewed</members>
         <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>RecentlyViewed</members>
+        <name>RemoteSiteSetting</name>
     </types>
     <types>
         <members>BootstrapJS</members>

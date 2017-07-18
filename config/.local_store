@@ -209,6 +209,34 @@
         "type": "AuraDefinitionBundle",
         "mmState": "clean"
     },
+    "RecentlyViewed.app": {
+        "createdById": "00528000001JBjQAAW",
+        "createdByName": "Ramu Veligeti",
+        "createdDate": "2016-12-22T21:22:15.000Z",
+        "fileName": "unpackaged/applications/RecentlyViewed.app",
+        "fullName": "RecentlyViewed",
+        "id": "02u28000001J790AAC",
+        "lastModifiedById": "00528000001JBjQAAW",
+        "lastModifiedByName": "Ramu Veligeti",
+        "lastModifiedDate": "2017-01-24T22:37:08.000Z",
+        "manageableState": "unmanaged",
+        "type": "CustomApplication",
+        "mmState": "clean"
+    },
+    "Util_JSONParser.cls": {
+        "createdById": "00528000001JBjQAAW",
+        "createdByName": "Ramu Veligeti",
+        "createdDate": "2017-01-12T02:30:43.000Z",
+        "fileName": "unpackaged/classes/Util_JSONParser.cls",
+        "fullName": "Util_JSONParser",
+        "id": "01p2800000FEcgbAAD",
+        "lastModifiedById": "00528000001JBjQAAW",
+        "lastModifiedByName": "Ramu Veligeti",
+        "lastModifiedDate": "2017-01-12T02:30:55.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
     "RecentlyViewedRecords.cls": {
         "createdById": "00528000001JBjQAAW",
         "createdByName": "Ramu Veligeti",
@@ -221,6 +249,48 @@
         "lastModifiedDate": "2017-07-18T07:43:36.000Z",
         "manageableState": "unmanaged",
         "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "IconUtils.cls": {
+        "createdById": "00528000001JBjQAAW",
+        "createdByName": "Ramu Veligeti",
+        "createdDate": "2016-12-21T00:13:00.000Z",
+        "fileName": "unpackaged/classes/IconUtils.cls",
+        "fullName": "IconUtils",
+        "id": "01p2800000FEN0KAAX",
+        "lastModifiedById": "00528000001JBjQAAW",
+        "lastModifiedByName": "Ramu Veligeti",
+        "lastModifiedDate": "2017-01-25T00:52:03.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "Util_JSONParser_Test.cls": {
+        "createdById": "00528000001JBjQAAW",
+        "createdByName": "Ramu Veligeti",
+        "createdDate": "2017-01-12T02:31:19.000Z",
+        "fileName": "unpackaged/classes/Util_JSONParser_Test.cls",
+        "fullName": "Util_JSONParser_Test",
+        "id": "01p2800000FEcggAAD",
+        "lastModifiedById": "00528000001JBjQAAW",
+        "lastModifiedByName": "Ramu Veligeti",
+        "lastModifiedDate": "2017-01-12T02:31:34.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "RecentlyViewed.remoteSite": {
+        "createdById": "00528000001JBjQAAW",
+        "createdByName": "Ramu Veligeti",
+        "createdDate": "2017-01-11T21:44:42.000Z",
+        "fileName": "unpackaged/remoteSiteSettings/RecentlyViewed.remoteSite",
+        "fullName": "RecentlyViewed",
+        "id": "0rp28000000QLUPAA4",
+        "lastModifiedById": "00528000001JBjQAAW",
+        "lastModifiedByName": "Ramu Veligeti",
+        "lastModifiedDate": "2017-01-11T21:44:42.000Z",
+        "manageableState": "unmanaged",
+        "type": "RemoteSiteSetting",
         "mmState": "clean"
     }
 }
