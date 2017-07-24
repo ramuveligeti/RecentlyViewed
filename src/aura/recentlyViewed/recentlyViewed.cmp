@@ -29,8 +29,10 @@
     <!--/aura:if-->
     <aura:handler name="init" action="{!c.myAction}" value="{!this}" />
     <aura:attribute name="records" type="List" />
+    <aura:attribute name="firstRecId" type="String" />
     <aura:attribute name="hovering" type="Boolean" default="false" access="private" />
     <aura:attribute name="showPopup" type="Boolean" default="false" access="private" />
+    <aura:handler name="getRecId" event="c:RecentlyViewedEvent" action="{!c.refreshView}"/>
     <ul>
         <table class="slds-table slds-table--bordered slds-table--striped">
             <tbody>

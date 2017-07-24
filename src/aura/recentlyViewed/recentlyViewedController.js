@@ -46,6 +46,11 @@
         var panel = document.getElementById(idx);
         console.log('panel=='+panel);
         $A.util.addClass(panel,'hidden');
+    },
+    refreshView : function(component,event,helper){
+        var rec = event.getParam("recId");
+        console.log('rec=='+rec);
+        //component.set("v.firstRecId",rec);
+        //helper.pollApex(component,event,helper);
     }
-    
 })

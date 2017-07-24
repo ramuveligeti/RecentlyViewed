@@ -21,20 +21,18 @@
     <aura:attribute name="hovering" type="Boolean" default="false" access="private" />
     <aura:attribute name="timers" type="Object[]" default="[]" />
     <aura:attribute name="timeout" type="Integer" access="private" />
+    <aura:registerEvent name="getRecId" type="c:RecentlyViewedEvent"/>
     <tr>
         <td>
             <div class="pop-wrapper" onmouseover="{!c.showRelatedHover}" onmouseleave="{!c.hideRelatedHover}">
                 <lightning:icon iconName="{!v.iconUrl}" size="x-small" />
                 &nbsp;
-                <a id="{!v.id}" rel="popover" class="textUnderline" data-toggle="popover" data-container="body" title="title" href="{!v.viewUrl}" aura:id="hrefLink" data-id='{!v.id}' style="width:100%;"> 
+                <a id="{!v.id}" rel="popover" class="textUnderline" data-toggle="popover" data-container="body" title="title" href="{!v.viewUrl}" aura:id="hrefLink" data-id='{!v.id}' style="width:100%;" onclick="{!c.pushRecId}"> 
                     {!v.name}
                 </a>
                 &nbsp;&nbsp;
                 <div class="forceHoverPrototype animate slds-hide" style="position:absolute;" aura:id="hoverCmp" >
                     <c:hover rId="{!v.id}" iconUrl="{!v.iconUrl}" FieldsNameMap="{!v.FieldsNameMap}"></c:hover>
-
-
-
                 </div>
                 <!--section class="slds-popover "></section>
                     <div class="scrollableContainer"  style="max-height: 784px; overflow-y: hidden;" Id="hoverCmpId" >

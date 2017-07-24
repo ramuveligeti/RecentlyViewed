@@ -1,12 +1,19 @@
 ({
     pollApex : function(component,event,helper) {
         helper.callApex(component,helper);
-        //window.setInterval($A.getCallback(function() {helper.callApex(component,helper)}),5000);
+        window.setInterval($A.getCallback(function() {helper.callApex(component,helper)}),5000);
     },
     callApex : function(component,helper) {
         var action = component.get("c.getRecentlyViewed");
         action.setCallback(this, function(data) {
-            component.set("v.records", data.getReturnValue());
+            var firstRec = component.get("v.firstRecId");
+            var rec = data.getReturnValue()[0];
+            console.log('firstRec=='+firstRec+'=='+rec+'=='+rec.rv.Id);
+            if((!$A.util.isEmpty(firstRec) && firstRec != rec.rv.Id) || $A.util.isEmpty(firstRec)){
+                console.log('in if');
+                component.set("v.firstRecId",rec.rv.Id);
+                component.set("v.records", data.getReturnValue());
+            }
         });
         $A.enqueueAction(action);
         
@@ -17,7 +24,7 @@
             $A.get('e.force:refreshView').fire();
         });
         $A.enqueueAction(action);
-    },
+    }/*
     resetHover: function(component){
         component.set('v.hovering',false);
         this.startTimeOut(component);
@@ -35,5 +42,5 @@
             }), 100
         );
         component.set('v.timeout',timeout);
-    }
+    }*/
 })

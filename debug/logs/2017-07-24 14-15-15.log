@@ -1,0 +1,712 @@
+40.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+19:15:12.0 (55757)|USER_INFO|[EXTERNAL]|00528000001JBjQ|ramu.veligeti@yahoo.co.in|Pacific Standard Time|GMT-07:00
+19:15:12.0 (87232)|EXECUTION_STARTED
+19:15:12.0 (90203)|CODE_UNIT_STARTED|[EXTERNAL]|Aura
+19:15:12.0 (9465571)|HEAP_ALLOCATE|[72]|Bytes:3
+19:15:12.0 (9499972)|HEAP_ALLOCATE|[77]|Bytes:152
+19:15:12.0 (9514072)|HEAP_ALLOCATE|[342]|Bytes:408
+19:15:12.0 (9528470)|HEAP_ALLOCATE|[355]|Bytes:408
+19:15:12.0 (9540619)|HEAP_ALLOCATE|[467]|Bytes:48
+19:15:12.0 (9563547)|HEAP_ALLOCATE|[139]|Bytes:6
+19:15:12.0 (9575966)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:18
+19:15:12.0 (9584377)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+19:15:12.0 (9775518)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+19:15:12.0 (9783386)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+19:15:12.0 (10793666)|CODE_UNIT_STARTED|[EXTERNAL]|01p2800000FELrp|RecentlyViewedRecords.queryCompactLayout
+19:15:12.0 (10861621)|VARIABLE_SCOPE_BEGIN|[2]|RecentlyViewedRecords.FIELDSET_NAME|String|false|true
+19:15:12.0 (10892395)|VARIABLE_SCOPE_BEGIN|[3]|RecentlyViewedRecords.private_apiFieldNames|Map<String,Set<String>>|true|true
+19:15:12.0 (10906176)|VARIABLE_SCOPE_BEGIN|[5]|RecentlyViewedRecords.rvi|Recently_Viewed__c|true|true
+19:15:12.0 (10914194)|VARIABLE_SCOPE_BEGIN|[4]|RecentlyViewedRecords.schemaMap|Map<String,Schema.SObjectType>|true|true
+19:15:12.0 (10964856)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:35
+19:15:12.0 (10972756)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:20
+19:15:12.0 (10977045)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:38
+19:15:12.0 (11074881)|METHOD_ENTRY|[1]|01p2800000FELrp|RecentlyViewedRecords.RecentlyViewedRecords()
+19:15:12.0 (11083410)|STATEMENT_EXECUTE|[1]
+19:15:12.0 (11088642)|STATEMENT_EXECUTE|[1]
+19:15:12.0 (11089596)|STATEMENT_EXECUTE|[2]
+19:15:12.0 (11092901)|HEAP_ALLOCATE|[2]|Bytes:19
+19:15:12.0 (11116531)|VARIABLE_ASSIGNMENT|[2]|RecentlyViewedRecords.FIELDSET_NAME|"RecentlyViewedHover"
+19:15:12.0 (11121707)|STATEMENT_EXECUTE|[3]
+19:15:12.0 (11125219)|HEAP_ALLOCATE|[3]|Bytes:4
+19:15:12.0 (11147559)|VARIABLE_ASSIGNMENT|[3]|RecentlyViewedRecords.private_apiFieldNames|{}|0x4480649f
+19:15:12.0 (11153565)|STATEMENT_EXECUTE|[4]
+19:15:12.0 (11183577)|HEAP_ALLOCATE|[50]|Bytes:5
+19:15:12.0 (11201952)|HEAP_ALLOCATE|[56]|Bytes:5
+19:15:12.0 (11209299)|HEAP_ALLOCATE|[64]|Bytes:7
+19:15:12.0 (24799562)|HEAP_ALLOCATE|[4]|Bytes:1456
+19:15:12.0 (25058341)|VARIABLE_ASSIGNMENT|[4]|RecentlyViewedRecords.schemaMap|"{acceptedeventrelation=AcceptedEventRelation, acchierarchy__account_hierarchy__mdt=accHierarchy__Account_Hierarchy__mdt, acchierarchy__account_hierarchy_setup__c=accHierarchy__Account_Hierarchy_Setup__c, account=Account, accountcleaninfo=AccountCleanInfo, accountcontactrole=AccountContactRole, accountfeed=AccountFeed, accounthistory=AccountHistory, accountpartner=AccountPartner, accountshare=AccountShare, ...}"|0x11540152
+19:15:12.0 (25075349)|STATEMENT_EXECUTE|[5]
+19:15:12.0 (25832122)|HEAP_ALLOCATE|[5]|Bytes:20
+19:15:12.0 (25869237)|VARIABLE_ASSIGNMENT|[5]|RecentlyViewedRecords.rvi|{"IsDeleted":false,"Name":"a0d28000002ZKNz","SetupOwnerId":"00528000001JBjQAAW","Records_to_Display__ (1 more) ...":"20"}|0x48e2eb40
+19:15:12.0 (25881985)|STATEMENT_EXECUTE|[147]
+19:15:12.0 (25883310)|STATEMENT_EXECUTE|[167]
+19:15:12.0 (25889686)|METHOD_EXIT|[1]|RecentlyViewedRecords
+19:15:12.0 (25897085)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+19:15:12.0 (25901024)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+19:15:12.0 (25907510)|SYSTEM_MODE_ENTER|false
+19:15:12.0 (25916142)|VARIABLE_SCOPE_BEGIN|[33]|rvId|Id|false|false
+19:15:12.0 (25972689)|VARIABLE_ASSIGNMENT|[33]|rvId|"00128000007rS6hAAE"
+19:15:12.0 (25979118)|VARIABLE_SCOPE_BEGIN|[33]|objName|String|false|false
+19:15:12.0 (25987444)|VARIABLE_ASSIGNMENT|[33]|objName|"Account"
+19:15:12.0 (25996712)|STATEMENT_EXECUTE|[33]
+19:15:12.0 (25997995)|STATEMENT_EXECUTE|[34]
+19:15:12.0 (26005123)|HEAP_ALLOCATE|[34]|Bytes:4
+19:15:12.0 (26018739)|VARIABLE_SCOPE_BEGIN|[34]|objMap|Map<String,String>|true|false
+19:15:12.0 (26033307)|VARIABLE_ASSIGNMENT|[34]|objMap|{}|0xf01ca5f
+19:15:12.0 (26038383)|STATEMENT_EXECUTE|[35]
+19:15:12.0 (26155776)|HEAP_ALLOCATE|[35]|Bytes:4
+19:15:12.0 (26209783)|VARIABLE_SCOPE_BEGIN|[35]|owList|List<RecentlyViewedRecords.objectWrapper>|true|false
+19:15:12.0 (26234046)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+19:15:12.0 (26242315)|VARIABLE_ASSIGNMENT|[35]|owList|[]|0x3e6e147c
+19:15:12.0 (26248164)|STATEMENT_EXECUTE|[36]
+19:15:12.0 (32804251)|HEAP_ALLOCATE|[36]|Bytes:1628
+19:15:12.0 (32830052)|VARIABLE_SCOPE_BEGIN|[36]|globalDescribeMap|Map<String,Schema.SObjectType>|true|false
+19:15:12.0 (33026808)|VARIABLE_ASSIGNMENT|[36]|globalDescribeMap|"{acceptedeventrelation=AcceptedEventRelation, acchierarchy__account_hierarchy__mdt=accHierarchy__Account_Hierarchy__mdt, acchierarchy__account_hierarchy_setup__c=accHierarchy__Account_Hierarchy_Setup__c, account=Account, accountcleaninfo=AccountCleanInfo, accountcontactrole=AccountContactRole, accountfeed=AccountFeed, accounthistory=AccountHistory, accountpartner=AccountPartner, accountshare=AccountShare, ...}"|0x77e3b18d
+19:15:12.0 (33042181)|STATEMENT_EXECUTE|[37]
+19:15:12.0 (33105557)|VARIABLE_SCOPE_BEGIN|[37]|SObjectTypeObj|Schema.SObjectType|true|false
+19:15:12.0 (33157130)|VARIABLE_ASSIGNMENT|[37]|SObjectTypeObj|"common.apex.runtime.impl.ApexSObjectTypeToken@2884ecda"|0x2884ecda
+19:15:12.0 (33164147)|STATEMENT_EXECUTE|[38]
+19:15:12.0 (33365884)|HEAP_ALLOCATE|[38]|Bytes:4
+19:15:12.0 (33389632)|VARIABLE_SCOPE_BEGIN|[38]|describeSObjectResultObj|Schema.DescribeSObjectResult|true|false
+19:15:12.0 (33451611)|VARIABLE_ASSIGNMENT|[38]|describeSObjectResultObj|"common.api.soap.wsdl.DescribeSObjectResult@e81ed298"|0xd500ebb
+19:15:12.0 (33459234)|STATEMENT_EXECUTE|[39]
+19:15:12.0 (33463642)|HEAP_ALLOCATE|[39]|Bytes:15
+19:15:12.0 (33471786)|HEAP_ALLOCATE|[39]|Bytes:2
+19:15:12.0 (33583794)|HEAP_ALLOCATE|[39]|Bytes:369
+19:15:12.0 (33603226)|HEAP_ALLOCATE|[39]|Bytes:405
+19:15:12.0 (33622117)|USER_DEBUG|[39]|DEBUG|FIELDSET_NAME==RecentlyViewedHover==Schema.DescribeSObjectResult[getHasSubtypes=false;getKeyPrefix=001;getLabel=Account;getLabelPlural=Accounts;getName=Account;isAccessible=true;isCreateable=true;isCustom=false;isCustomSetting=false;isDeletable=true;isDeprecatedAndHidden=false;isFeedEnabled=true;isMergeable=true;isMruEnabled=true;isQueryable=true;isSearchable=true;isUndeletable=true;isUpdateable=true;]
+19:15:12.0 (33635598)|STATEMENT_EXECUTE|[40]
+19:15:12.0 (34959193)|HEAP_ALLOCATE|[40]|Bytes:8
+19:15:12.0 (35038138)|VARIABLE_SCOPE_BEGIN|[40]|fieldSetObj|Schema.FieldSet|true|false
+19:15:12.0 (35098161)|VARIABLE_ASSIGNMENT|[40]|fieldSetObj|"common.api.soap.wsdl.FieldSet@550c18d8"|0x5824f114
+19:15:12.0 (35105853)|STATEMENT_EXECUTE|[41]
+19:15:12.0 (35109944)|HEAP_ALLOCATE|[41]|Bytes:13
+19:15:12.0 (35324653)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:24
+19:15:12.0 (35865737)|HEAP_ALLOCATE|[41]|Bytes:777
+19:15:12.0 (35898020)|HEAP_ALLOCATE|[41]|Bytes:790
+19:15:12.0 (35909582)|USER_DEBUG|[41]|DEBUG|fieldSetObj==Schema.FieldSet[getDescription=test;getFields=(Schema.FieldSetMember[getDbRequired=true;getFieldPath=Name;getLabel=Account Name;getRequired=false;getType=STRING;], Schema.FieldSetMember[getDbRequired=false;getFieldPath=AccountNumber;getLabel=Account Number;getRequired=false;getType=STRING;], Schema.FieldSetMember[getDbRequired=false;getFieldPath=Active__c;getLabel=Active;getRequired=false;getType=PICKLIST;], Schema.FieldSetMember[getDbRequired=false;getFieldPath=CustomerPriority__c;getLabel=Customer Priority;getRequired=false;getType=PICKLIST;], Schema.FieldSetMember[getDbRequired=true;getFieldPath=CreatedDate;getLabel=Created Date;getRequired=false;getType=DATETIME;]);getLabel=RecentlyViewedHover;getName=RecentlyViewedHover;getNameSpace=null;getSObjectType=Account;]
+19:15:12.0 (35927254)|STATEMENT_EXECUTE|[42]
+19:15:12.0 (35934633)|HEAP_ALLOCATE|[42]|Bytes:4
+19:15:12.0 (35960220)|VARIABLE_SCOPE_BEGIN|[42]|fieldApis|List<String>|true|false
+19:15:12.0 (35988794)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+19:15:12.0 (36001331)|VARIABLE_ASSIGNMENT|[42]|fieldApis|[]|0x23c6d31f
+19:15:12.0 (36008189)|STATEMENT_EXECUTE|[43]
+19:15:12.0 (36016367)|HEAP_ALLOCATE|[43]|Bytes:4
+19:15:12.0 (36038941)|VARIABLE_SCOPE_BEGIN|[43]|refFieldToIgnore|Set<String>|true|false
+19:15:12.0 (36060929)|VARIABLE_ASSIGNMENT|[43]|refFieldToIgnore|[]|0x165de266
+19:15:12.0 (36066760)|STATEMENT_EXECUTE|[44]
+19:15:12.0 (36070773)|HEAP_ALLOCATE|[44]|Bytes:4
+19:15:12.0 (36077187)|VARIABLE_SCOPE_BEGIN|[44]|refMap|Map<String,String>|true|false
+19:15:12.0 (36089657)|VARIABLE_ASSIGNMENT|[44]|refMap|{}|0x5639a398
+19:15:12.0 (36094616)|STATEMENT_EXECUTE|[45]
+19:15:12.0 (36097632)|VARIABLE_SCOPE_BEGIN|[45]|query|String|false|false
+19:15:12.0 (36106377)|VARIABLE_ASSIGNMENT|[45]|query|null
+19:15:12.0 (36110874)|STATEMENT_EXECUTE|[46]
+19:15:12.0 (36154970)|HEAP_ALLOCATE|[47]|Bytes:24
+19:15:12.0 (36314727)|HEAP_ALLOCATE|[47]|Bytes:5
+19:15:12.0 (36383367)|HEAP_ALLOCATE|[47]|Bytes:24
+19:15:12.0 (36402669)|VARIABLE_SCOPE_BEGIN|[47]|fieldSetMemberObj|Schema.FieldSetMember|true|false
+19:15:12.0 (36459089)|VARIABLE_ASSIGNMENT|[47]|fieldSetMemberObj|"Name"|0x6ba549a
+19:15:12.0 (36467182)|STATEMENT_EXECUTE|[47]
+19:15:12.0 (36468396)|STATEMENT_EXECUTE|[48]
+19:15:12.0 (36479718)|HEAP_ALLOCATE|[48]|Bytes:4
+19:15:12.0 (36510076)|HEAP_ALLOCATE|[48]|Bytes:4
+19:15:12.0 (36520563)|VARIABLE_SCOPE_BEGIN|[48]|apiName|String|false|false
+19:15:12.0 (36530785)|VARIABLE_ASSIGNMENT|[48]|apiName|"name"
+19:15:12.0 (36535046)|STATEMENT_EXECUTE|[49]
+19:15:12.0 (36546989)|METHOD_ENTRY|[49]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (36563463)|VARIABLE_SCOPE_BEGIN|[136]|objName|String|false|false
+19:15:12.0 (36571429)|VARIABLE_ASSIGNMENT|[136]|objName|"Account"
+19:15:12.0 (36575786)|VARIABLE_SCOPE_BEGIN|[136]|fieldApi|String|false|false
+19:15:12.0 (36581550)|VARIABLE_ASSIGNMENT|[136]|fieldApi|"name"
+19:15:12.0 (36587195)|STATEMENT_EXECUTE|[136]
+19:15:12.0 (36588693)|STATEMENT_EXECUTE|[137]
+19:15:12.0 (36617412)|VARIABLE_SCOPE_BEGIN|[137]|leadSchema|Schema.SObjectType|true|false
+19:15:12.0 (36666090)|VARIABLE_ASSIGNMENT|[137]|leadSchema|"common.apex.runtime.impl.ApexSObjectTypeToken@2884ecda"|0x2884ecda
+19:15:12.0 (36672595)|STATEMENT_EXECUTE|[138]
+19:15:12.0 (36697843)|HEAP_ALLOCATE|[138]|Bytes:4
+19:15:12.0 (37247600)|HEAP_ALLOCATE|[138]|Bytes:296
+19:15:12.0 (37262779)|METHOD_EXIT|[49]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (37269866)|VARIABLE_SCOPE_BEGIN|[49]|fieldMap1|Map<String,Schema.SObjectField>|true|false
+19:15:12.0 (37423839)|VARIABLE_ASSIGNMENT|[49]|fieldMap1|"{acchierarchy__haschildwithchanges__c=accHierarchy__hasChildWithChanges__c, acchierarchy__hierarchy_parents__c=accHierarchy__Hierarchy_Parents__c, acchierarchy__on_previous_hierarchy_level__c=accHierarchy__On_Previous_Hierarchy_Level__c, acchierarchy__topparentid__c=accHierarchy__TopParentId__c, accountnumber=AccountNumber, accountsource=AccountSource, active__c=Active__c, annualrevenue=AnnualRevenue, billingaddress=BillingAddress, billingcity=BillingCity, ...}"|0x4e237aee
+19:15:12.0 (37442841)|STATEMENT_EXECUTE|[50]
+19:15:12.0 (37658110)|HEAP_ALLOCATE|[50]|Bytes:8
+19:15:12.0 (37921954)|HEAP_ALLOCATE|[50]|Bytes:12
+19:15:12.0 (37947901)|HEAP_ALLOCATE|[50]|Bytes:6
+19:15:12.0 (37958343)|VARIABLE_SCOPE_BEGIN|[50]|fType|String|false|false
+19:15:12.0 (37971352)|VARIABLE_ASSIGNMENT|[50]|fType|"STRING"
+19:15:12.0 (37977159)|HEAP_ALLOCATE|[51]|Bytes:9
+19:15:12.0 (38007709)|STATEMENT_EXECUTE|[51]
+19:15:12.0 (38010263)|STATEMENT_EXECUTE|[62]
+19:15:12.0 (38030940)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+19:15:12.0 (38046206)|HEAP_ALLOCATE|[47]|Bytes:5
+19:15:12.0 (38057140)|HEAP_ALLOCATE|[47]|Bytes:24
+19:15:12.0 (38073756)|VARIABLE_SCOPE_BEGIN|[47]|fieldSetMemberObj|Schema.FieldSetMember|true|false
+19:15:12.0 (38129105)|VARIABLE_ASSIGNMENT|[47]|fieldSetMemberObj|"AccountNumber"|0x15a1c666
+19:15:12.0 (38136304)|STATEMENT_EXECUTE|[47]
+19:15:12.0 (38137635)|STATEMENT_EXECUTE|[48]
+19:15:12.0 (38143008)|HEAP_ALLOCATE|[48]|Bytes:13
+19:15:12.0 (38157425)|HEAP_ALLOCATE|[48]|Bytes:13
+19:15:12.0 (38165637)|VARIABLE_SCOPE_BEGIN|[48]|apiName|String|false|false
+19:15:12.0 (38175605)|VARIABLE_ASSIGNMENT|[48]|apiName|"accountnumber"
+19:15:12.0 (38179128)|STATEMENT_EXECUTE|[49]
+19:15:12.0 (38184329)|METHOD_ENTRY|[49]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (38190070)|VARIABLE_SCOPE_BEGIN|[136]|objName|String|false|false
+19:15:12.0 (38198146)|VARIABLE_ASSIGNMENT|[136]|objName|"Account"
+19:15:12.0 (38201880)|VARIABLE_SCOPE_BEGIN|[136]|fieldApi|String|false|false
+19:15:12.0 (38207861)|VARIABLE_ASSIGNMENT|[136]|fieldApi|"accountnumber"
+19:15:12.0 (38212409)|STATEMENT_EXECUTE|[136]
+19:15:12.0 (38213534)|STATEMENT_EXECUTE|[137]
+19:15:12.0 (38226422)|VARIABLE_SCOPE_BEGIN|[137]|leadSchema|Schema.SObjectType|true|false
+19:15:12.0 (38271388)|VARIABLE_ASSIGNMENT|[137]|leadSchema|"common.apex.runtime.impl.ApexSObjectTypeToken@2884ecda"|0x2884ecda
+19:15:12.0 (38278030)|STATEMENT_EXECUTE|[138]
+19:15:12.0 (38294103)|HEAP_ALLOCATE|[138]|Bytes:4
+19:15:12.0 (38500127)|HEAP_ALLOCATE|[138]|Bytes:296
+19:15:12.0 (38512054)|METHOD_EXIT|[49]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (38518279)|VARIABLE_SCOPE_BEGIN|[49]|fieldMap1|Map<String,Schema.SObjectField>|true|false
+19:15:12.0 (38650270)|VARIABLE_ASSIGNMENT|[49]|fieldMap1|"{acchierarchy__haschildwithchanges__c=accHierarchy__hasChildWithChanges__c, acchierarchy__hierarchy_parents__c=accHierarchy__Hierarchy_Parents__c, acchierarchy__on_previous_hierarchy_level__c=accHierarchy__On_Previous_Hierarchy_Level__c, acchierarchy__topparentid__c=accHierarchy__TopParentId__c, accountnumber=AccountNumber, accountsource=AccountSource, active__c=Active__c, annualrevenue=AnnualRevenue, billingaddress=BillingAddress, billingcity=BillingCity, ...}"|0x40802a36
+19:15:12.0 (38664304)|STATEMENT_EXECUTE|[50]
+19:15:12.0 (38923785)|HEAP_ALLOCATE|[50]|Bytes:8
+19:15:12.0 (38954383)|HEAP_ALLOCATE|[50]|Bytes:12
+19:15:12.0 (38976933)|HEAP_ALLOCATE|[50]|Bytes:6
+19:15:12.0 (38987110)|VARIABLE_SCOPE_BEGIN|[50]|fType|String|false|false
+19:15:12.0 (38998002)|VARIABLE_ASSIGNMENT|[50]|fType|"STRING"
+19:15:12.0 (39013167)|STATEMENT_EXECUTE|[51]
+19:15:12.0 (39015326)|STATEMENT_EXECUTE|[62]
+19:15:12.0 (39021113)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+19:15:12.0 (39033488)|HEAP_ALLOCATE|[47]|Bytes:5
+19:15:12.0 (39044400)|HEAP_ALLOCATE|[47]|Bytes:24
+19:15:12.0 (39060108)|VARIABLE_SCOPE_BEGIN|[47]|fieldSetMemberObj|Schema.FieldSetMember|true|false
+19:15:12.0 (39114997)|VARIABLE_ASSIGNMENT|[47]|fieldSetMemberObj|"Active__c"|0x52e92757
+19:15:12.0 (39122610)|STATEMENT_EXECUTE|[47]
+19:15:12.0 (39123722)|STATEMENT_EXECUTE|[48]
+19:15:12.0 (39129088)|HEAP_ALLOCATE|[48]|Bytes:9
+19:15:12.0 (39142766)|HEAP_ALLOCATE|[48]|Bytes:9
+19:15:12.0 (39150595)|VARIABLE_SCOPE_BEGIN|[48]|apiName|String|false|false
+19:15:12.0 (39159216)|VARIABLE_ASSIGNMENT|[48]|apiName|"active__c"
+19:15:12.0 (39163699)|STATEMENT_EXECUTE|[49]
+19:15:12.0 (39168921)|METHOD_ENTRY|[49]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (39174250)|VARIABLE_SCOPE_BEGIN|[136]|objName|String|false|false
+19:15:12.0 (39181391)|VARIABLE_ASSIGNMENT|[136]|objName|"Account"
+19:15:12.0 (39185626)|VARIABLE_SCOPE_BEGIN|[136]|fieldApi|String|false|false
+19:15:12.0 (39191793)|VARIABLE_ASSIGNMENT|[136]|fieldApi|"active__c"
+19:15:12.0 (39196226)|STATEMENT_EXECUTE|[136]
+19:15:12.0 (39197583)|STATEMENT_EXECUTE|[137]
+19:15:12.0 (39210304)|VARIABLE_SCOPE_BEGIN|[137]|leadSchema|Schema.SObjectType|true|false
+19:15:12.0 (39255762)|VARIABLE_ASSIGNMENT|[137]|leadSchema|"common.apex.runtime.impl.ApexSObjectTypeToken@2884ecda"|0x2884ecda
+19:15:12.0 (39262715)|STATEMENT_EXECUTE|[138]
+19:15:12.0 (39278630)|HEAP_ALLOCATE|[138]|Bytes:4
+19:15:12.0 (39481003)|HEAP_ALLOCATE|[138]|Bytes:296
+19:15:12.0 (39492699)|METHOD_EXIT|[49]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (39499569)|VARIABLE_SCOPE_BEGIN|[49]|fieldMap1|Map<String,Schema.SObjectField>|true|false
+19:15:12.0 (39635485)|VARIABLE_ASSIGNMENT|[49]|fieldMap1|"{acchierarchy__haschildwithchanges__c=accHierarchy__hasChildWithChanges__c, acchierarchy__hierarchy_parents__c=accHierarchy__Hierarchy_Parents__c, acchierarchy__on_previous_hierarchy_level__c=accHierarchy__On_Previous_Hierarchy_Level__c, acchierarchy__topparentid__c=accHierarchy__TopParentId__c, accountnumber=AccountNumber, accountsource=AccountSource, active__c=Active__c, annualrevenue=AnnualRevenue, billingaddress=BillingAddress, billingcity=BillingCity, ...}"|0x137976a6
+19:15:12.0 (39648930)|STATEMENT_EXECUTE|[50]
+19:15:12.0 (39759395)|HEAP_ALLOCATE|[50]|Bytes:8
+19:15:12.0 (39787016)|HEAP_ALLOCATE|[50]|Bytes:12
+19:15:12.0 (39807506)|HEAP_ALLOCATE|[50]|Bytes:8
+19:15:12.0 (39817092)|VARIABLE_SCOPE_BEGIN|[50]|fType|String|false|false
+19:15:12.0 (39827698)|VARIABLE_ASSIGNMENT|[50]|fType|"PICKLIST"
+19:15:12.0 (39843091)|STATEMENT_EXECUTE|[51]
+19:15:12.0 (39844551)|STATEMENT_EXECUTE|[62]
+19:15:12.0 (39849595)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+19:15:12.0 (39861383)|HEAP_ALLOCATE|[47]|Bytes:5
+19:15:12.0 (39875602)|HEAP_ALLOCATE|[47]|Bytes:24
+19:15:12.0 (39891541)|VARIABLE_SCOPE_BEGIN|[47]|fieldSetMemberObj|Schema.FieldSetMember|true|false
+19:15:12.0 (39945895)|VARIABLE_ASSIGNMENT|[47]|fieldSetMemberObj|"CustomerPriority__c"|0x12ca17ae
+19:15:12.0 (39954022)|STATEMENT_EXECUTE|[47]
+19:15:12.0 (39955141)|STATEMENT_EXECUTE|[48]
+19:15:12.0 (39959901)|HEAP_ALLOCATE|[48]|Bytes:19
+19:15:12.0 (39973337)|HEAP_ALLOCATE|[48]|Bytes:19
+19:15:12.0 (39980476)|VARIABLE_SCOPE_BEGIN|[48]|apiName|String|false|false
+19:15:12.0 (39989218)|VARIABLE_ASSIGNMENT|[48]|apiName|"customerpriority__c"
+19:15:12.0 (39993078)|STATEMENT_EXECUTE|[49]
+19:15:12.0 (39998117)|METHOD_ENTRY|[49]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (40003881)|VARIABLE_SCOPE_BEGIN|[136]|objName|String|false|false
+19:15:12.0 (40011679)|VARIABLE_ASSIGNMENT|[136]|objName|"Account"
+19:15:12.0 (40015260)|VARIABLE_SCOPE_BEGIN|[136]|fieldApi|String|false|false
+19:15:12.0 (40021210)|VARIABLE_ASSIGNMENT|[136]|fieldApi|"customerpriority__c"
+19:15:12.0 (40025531)|STATEMENT_EXECUTE|[136]
+19:15:12.0 (40026696)|STATEMENT_EXECUTE|[137]
+19:15:12.0 (40038717)|VARIABLE_SCOPE_BEGIN|[137]|leadSchema|Schema.SObjectType|true|false
+19:15:12.0 (40084062)|VARIABLE_ASSIGNMENT|[137]|leadSchema|"common.apex.runtime.impl.ApexSObjectTypeToken@2884ecda"|0x2884ecda
+19:15:12.0 (40091525)|STATEMENT_EXECUTE|[138]
+19:15:12.0 (40106242)|HEAP_ALLOCATE|[138]|Bytes:4
+19:15:12.0 (40299135)|HEAP_ALLOCATE|[138]|Bytes:296
+19:15:12.0 (40310595)|METHOD_EXIT|[49]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (40316629)|VARIABLE_SCOPE_BEGIN|[49]|fieldMap1|Map<String,Schema.SObjectField>|true|false
+19:15:12.0 (40453924)|VARIABLE_ASSIGNMENT|[49]|fieldMap1|"{acchierarchy__haschildwithchanges__c=accHierarchy__hasChildWithChanges__c, acchierarchy__hierarchy_parents__c=accHierarchy__Hierarchy_Parents__c, acchierarchy__on_previous_hierarchy_level__c=accHierarchy__On_Previous_Hierarchy_Level__c, acchierarchy__topparentid__c=accHierarchy__TopParentId__c, accountnumber=AccountNumber, accountsource=AccountSource, active__c=Active__c, annualrevenue=AnnualRevenue, billingaddress=BillingAddress, billingcity=BillingCity, ...}"|0x4a5e9f17
+19:15:12.0 (40467912)|STATEMENT_EXECUTE|[50]
+19:15:12.0 (40572100)|HEAP_ALLOCATE|[50]|Bytes:8
+19:15:12.0 (40600302)|HEAP_ALLOCATE|[50]|Bytes:12
+19:15:12.0 (40620401)|HEAP_ALLOCATE|[50]|Bytes:8
+19:15:12.0 (40630111)|VARIABLE_SCOPE_BEGIN|[50]|fType|String|false|false
+19:15:12.0 (40642050)|VARIABLE_ASSIGNMENT|[50]|fType|"PICKLIST"
+19:15:12.0 (40657071)|STATEMENT_EXECUTE|[51]
+19:15:12.0 (40658544)|STATEMENT_EXECUTE|[62]
+19:15:12.0 (40663907)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+19:15:12.0 (40676244)|HEAP_ALLOCATE|[47]|Bytes:5
+19:15:12.0 (40686497)|HEAP_ALLOCATE|[47]|Bytes:24
+19:15:12.0 (40701362)|VARIABLE_SCOPE_BEGIN|[47]|fieldSetMemberObj|Schema.FieldSetMember|true|false
+19:15:12.0 (40754752)|VARIABLE_ASSIGNMENT|[47]|fieldSetMemberObj|"CreatedDate"|0x22d48dd7
+19:15:12.0 (40761950)|STATEMENT_EXECUTE|[47]
+19:15:12.0 (40763048)|STATEMENT_EXECUTE|[48]
+19:15:12.0 (40767899)|HEAP_ALLOCATE|[48]|Bytes:11
+19:15:12.0 (40781571)|HEAP_ALLOCATE|[48]|Bytes:11
+19:15:12.0 (40788665)|VARIABLE_SCOPE_BEGIN|[48]|apiName|String|false|false
+19:15:12.0 (40797961)|VARIABLE_ASSIGNMENT|[48]|apiName|"createddate"
+19:15:12.0 (40802346)|STATEMENT_EXECUTE|[49]
+19:15:12.0 (40807731)|METHOD_ENTRY|[49]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (40813972)|VARIABLE_SCOPE_BEGIN|[136]|objName|String|false|false
+19:15:12.0 (40821141)|VARIABLE_ASSIGNMENT|[136]|objName|"Account"
+19:15:12.0 (40825377)|VARIABLE_SCOPE_BEGIN|[136]|fieldApi|String|false|false
+19:15:12.0 (40831123)|VARIABLE_ASSIGNMENT|[136]|fieldApi|"createddate"
+19:15:12.0 (40835324)|STATEMENT_EXECUTE|[136]
+19:15:12.0 (40836440)|STATEMENT_EXECUTE|[137]
+19:15:12.0 (40849073)|VARIABLE_SCOPE_BEGIN|[137]|leadSchema|Schema.SObjectType|true|false
+19:15:12.0 (40897438)|VARIABLE_ASSIGNMENT|[137]|leadSchema|"common.apex.runtime.impl.ApexSObjectTypeToken@2884ecda"|0x2884ecda
+19:15:12.0 (40904654)|STATEMENT_EXECUTE|[138]
+19:15:12.0 (40919993)|HEAP_ALLOCATE|[138]|Bytes:4
+19:15:12.0 (41117771)|HEAP_ALLOCATE|[138]|Bytes:296
+19:15:12.0 (41129795)|METHOD_EXIT|[49]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (41135619)|VARIABLE_SCOPE_BEGIN|[49]|fieldMap1|Map<String,Schema.SObjectField>|true|false
+19:15:12.0 (41268621)|VARIABLE_ASSIGNMENT|[49]|fieldMap1|"{acchierarchy__haschildwithchanges__c=accHierarchy__hasChildWithChanges__c, acchierarchy__hierarchy_parents__c=accHierarchy__Hierarchy_Parents__c, acchierarchy__on_previous_hierarchy_level__c=accHierarchy__On_Previous_Hierarchy_Level__c, acchierarchy__topparentid__c=accHierarchy__TopParentId__c, accountnumber=AccountNumber, accountsource=AccountSource, active__c=Active__c, annualrevenue=AnnualRevenue, billingaddress=BillingAddress, billingcity=BillingCity, ...}"|0x1ccc18bd
+19:15:12.0 (41281976)|STATEMENT_EXECUTE|[50]
+19:15:12.0 (41390933)|HEAP_ALLOCATE|[50]|Bytes:8
+19:15:12.0 (41417983)|HEAP_ALLOCATE|[50]|Bytes:12
+19:15:12.0 (41438153)|HEAP_ALLOCATE|[50]|Bytes:8
+19:15:12.0 (41448438)|VARIABLE_SCOPE_BEGIN|[50]|fType|String|false|false
+19:15:12.0 (41458654)|VARIABLE_ASSIGNMENT|[50]|fType|"DATETIME"
+19:15:12.0 (41473758)|STATEMENT_EXECUTE|[51]
+19:15:12.0 (41475324)|STATEMENT_EXECUTE|[62]
+19:15:12.0 (41480852)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+19:15:12.0 (41492909)|HEAP_ALLOCATE|[47]|Bytes:5
+19:15:12.0 (41503764)|VARIABLE_ASSIGNMENT|[47]|fieldSetMemberObj|null|
+19:15:12.0 (41508858)|STATEMENT_EXECUTE|[65]
+19:15:12.0 (41511470)|HEAP_ALLOCATE|[65]|Bytes:11
+19:15:12.0 (41515148)|HEAP_ALLOCATE|[65]|Bytes:1
+19:15:12.0 (41555057)|HEAP_ALLOCATE|[65]|Bytes:5
+19:15:12.0 (41561676)|HEAP_ALLOCATE|[65]|Bytes:4
+19:15:12.0 (41565297)|HEAP_ALLOCATE|[65]|Bytes:5
+19:15:12.0 (41568725)|HEAP_ALLOCATE|[65]|Bytes:13
+19:15:12.0 (41572358)|HEAP_ALLOCATE|[65]|Bytes:5
+19:15:12.0 (41575392)|HEAP_ALLOCATE|[65]|Bytes:9
+19:15:12.0 (41578272)|HEAP_ALLOCATE|[65]|Bytes:5
+19:15:12.0 (41582059)|HEAP_ALLOCATE|[65]|Bytes:19
+19:15:12.0 (41585656)|HEAP_ALLOCATE|[65]|Bytes:5
+19:15:12.0 (41588588)|HEAP_ALLOCATE|[65]|Bytes:11
+19:15:12.0 (41591568)|HEAP_ALLOCATE|[65]|Bytes:5
+19:15:12.0 (41594853)|HEAP_ALLOCATE|[65]|Bytes:60
+19:15:12.0 (41603691)|HEAP_ALLOCATE|[65]|Bytes:6
+19:15:12.0 (41607535)|HEAP_ALLOCATE|[65]|Bytes:13
+19:15:12.0 (41616629)|HEAP_ALLOCATE|[65]|Bytes:18
+19:15:12.0 (41628832)|HEAP_ALLOCATE|[65]|Bytes:115
+19:15:12.0 (41632377)|HEAP_ALLOCATE|[65]|Bytes:1
+19:15:12.0 (41636447)|HEAP_ALLOCATE|[65]|Bytes:116
+19:15:12.0 (41644305)|VARIABLE_ASSIGNMENT|[65]|query|"Select Id, name,acco (96 more) ..."
+19:15:12.0 (41649801)|STATEMENT_EXECUTE|[85]
+19:15:12.0 (41651714)|HEAP_ALLOCATE|[85]|Bytes:7
+19:15:12.0 (41655861)|HEAP_ALLOCATE|[85]|Bytes:123
+19:15:12.0 (41676522)|USER_DEBUG|[85]|DEBUG|query==Select Id, name,accountnumber,active__c,customerpriority__c,createddate from Account where Id = '00128000007rS6hAAE'
+19:15:12.0 (41685207)|STATEMENT_EXECUTE|[86]
+19:15:12.0 (41899123)|SOQL_EXECUTE_BEGIN|[86]|Aggregations:0|Select Id, name,accountnumber,active__c,customerpriority__c,createddate from Account where Id = '00128000007rS6hAAE'
+19:15:12.0 (44267691)|SOQL_EXECUTE_END|[86]|Rows:1
+19:15:12.0 (44286106)|HEAP_ALLOCATE|[86]|Bytes:8
+19:15:12.0 (44302666)|HEAP_ALLOCATE|[86]|Bytes:146
+19:15:12.0 (44353475)|HEAP_ALLOCATE|[86]|Bytes:8
+19:15:12.0 (44368000)|HEAP_ALLOCATE|[86]|Bytes:33
+19:15:12.0 (44438615)|HEAP_ALLOCATE|[86]|Bytes:28
+19:15:12.0 (44450580)|VARIABLE_SCOPE_BEGIN|[86]|so|SObject|true|false
+19:15:12.0 (44490082)|VARIABLE_ASSIGNMENT|[86]|so|{"Id":"00128000007rS6hAAE","Name":"United Oil & Gas Cor (2 more) ...","AccountNumber":"CD355118","Active__c":"Yes","CustomerPriority__c":"High","CreatedDate":"2015-09-25T10:27:41.000Z"}|0x4bf6fbaf
+19:15:12.0 (44502999)|STATEMENT_EXECUTE|[87]
+19:15:12.0 (44507332)|HEAP_ALLOCATE|[87]|Bytes:4
+19:15:12.0 (44590654)|HEAP_ALLOCATE|[87]|Bytes:158
+19:15:12.0 (44608186)|HEAP_ALLOCATE|[87]|Bytes:162
+19:15:12.0 (44619274)|USER_DEBUG|[87]|DEBUG|so==Account:{Id=00128000007rS6hAAE, Name=United Oil & Gas Corp., AccountNumber=CD355118, Active__c=Yes, CustomerPriority__c=High, CreatedDate=2015-09-25 10:27:41}
+19:15:12.0 (44659581)|HEAP_ALLOCATE|[88]|Bytes:5
+19:15:12.0 (44670933)|HEAP_ALLOCATE|[88]|Bytes:4
+19:15:12.0 (44678517)|VARIABLE_SCOPE_BEGIN|[88]|st|String|false|false
+19:15:12.0 (44689300)|VARIABLE_ASSIGNMENT|[88]|st|"name"
+19:15:12.0 (44694044)|STATEMENT_EXECUTE|[88]
+19:15:12.0 (44722285)|STATEMENT_EXECUTE|[89]
+19:15:12.0 (44723623)|STATEMENT_EXECUTE|[90]
+19:15:12.0 (44730801)|METHOD_ENTRY|[90]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (44744049)|VARIABLE_SCOPE_BEGIN|[136]|objName|String|false|false
+19:15:12.0 (44752624)|VARIABLE_ASSIGNMENT|[136]|objName|"Account"
+19:15:12.0 (44756506)|VARIABLE_SCOPE_BEGIN|[136]|fieldApi|String|false|false
+19:15:12.0 (44762236)|VARIABLE_ASSIGNMENT|[136]|fieldApi|"name"
+19:15:12.0 (44766878)|STATEMENT_EXECUTE|[136]
+19:15:12.0 (44768101)|STATEMENT_EXECUTE|[137]
+19:15:12.0 (44781261)|VARIABLE_SCOPE_BEGIN|[137]|leadSchema|Schema.SObjectType|true|false
+19:15:12.0 (44844380)|VARIABLE_ASSIGNMENT|[137]|leadSchema|"common.apex.runtime.impl.ApexSObjectTypeToken@2884ecda"|0x2884ecda
+19:15:12.0 (44851375)|STATEMENT_EXECUTE|[138]
+19:15:12.0 (44870717)|HEAP_ALLOCATE|[138]|Bytes:4
+19:15:12.0 (45099616)|HEAP_ALLOCATE|[138]|Bytes:296
+19:15:12.0 (45113346)|METHOD_EXIT|[90]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (45120237)|VARIABLE_SCOPE_BEGIN|[90]|fieldMap|Map<String,Schema.SObjectField>|true|false
+19:15:12.0 (45259138)|VARIABLE_ASSIGNMENT|[90]|fieldMap|"{acchierarchy__haschildwithchanges__c=accHierarchy__hasChildWithChanges__c, acchierarchy__hierarchy_parents__c=accHierarchy__Hierarchy_Parents__c, acchierarchy__on_previous_hierarchy_level__c=accHierarchy__On_Previous_Hierarchy_Level__c, acchierarchy__topparentid__c=accHierarchy__TopParentId__c, accountnumber=AccountNumber, accountsource=AccountSource, active__c=Active__c, annualrevenue=AnnualRevenue, billingaddress=BillingAddress, billingcity=BillingCity, ...}"|0x676a0d46
+19:15:12.0 (45272741)|STATEMENT_EXECUTE|[91]
+19:15:12.0 (45288678)|HEAP_ALLOCATE|[91]|Bytes:180
+19:15:12.0 (45295963)|HEAP_ALLOCATE|[91]|Bytes:23
+19:15:12.0 (45304614)|HEAP_ALLOCATE|[91]|Bytes:28
+19:15:12.0 (45317581)|CONSTRUCTOR_ENTRY|[91]|01p2800000FELrp|<init>()
+19:15:12.0 (45335995)|VARIABLE_SCOPE_BEGIN|[167]|this|RecentlyViewedRecords.objectWrapper|true|false
+19:15:12.0 (45365935)|VARIABLE_ASSIGNMENT|[167]|this|{}|0x13efa0e6
+19:15:12.0 (45375808)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:6
+19:15:12.0 (45397697)|STATEMENT_EXECUTE|[167]
+19:15:12.0 (45399096)|STATEMENT_EXECUTE|[169]
+19:15:12.0 (45400511)|STATEMENT_EXECUTE|[171]
+19:15:12.0 (45401343)|STATEMENT_EXECUTE|[173]
+19:15:12.0 (45402236)|STATEMENT_EXECUTE|[175]
+19:15:12.0 (45403093)|STATEMENT_EXECUTE|[177]
+19:15:12.0 (45403964)|STATEMENT_EXECUTE|[179]
+19:15:12.0 (45407613)|CONSTRUCTOR_EXIT|[91]|01p2800000FELrp|<init>()
+19:15:12.0 (45412971)|VARIABLE_SCOPE_BEGIN|[91]|ow|RecentlyViewedRecords.objectWrapper|true|false
+19:15:12.0 (45428990)|VARIABLE_ASSIGNMENT|[91]|ow|{}|0x13efa0e6
+19:15:12.0 (45434349)|STATEMENT_EXECUTE|[92]
+19:15:12.0 (45501041)|HEAP_ALLOCATE|[92]|Bytes:8
+19:15:12.0 (45518912)|HEAP_ALLOCATE|[92]|Bytes:12
+19:15:12.0 (45546842)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{}|0x13efa0e6
+19:15:12.0 (45556020)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"Account Name"
+19:15:12.0 (45566793)|VARIABLE_ASSIGNMENT|[169]|this.label|"Account Name"|0x13efa0e6
+19:15:12.0 (45574660)|STATEMENT_EXECUTE|[93]
+19:15:12.0 (45624650)|HEAP_ALLOCATE|[93]|Bytes:22
+19:15:12.0 (45642084)|HEAP_ALLOCATE|[93]|Bytes:22
+19:15:12.0 (45668690)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Account Name"}|0x13efa0e6
+19:15:12.0 (45677910)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"United Oil & Gas Cor (2 more) ..."
+19:15:12.0 (45685785)|VARIABLE_ASSIGNMENT|[171]|this.value|"United Oil & Gas Cor (2 more) ..."|0x13efa0e6
+19:15:12.0 (45693147)|STATEMENT_EXECUTE|[94]
+19:15:12.0 (45736586)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Account Name","value":"United Oil & Gas Cor (2 more) ..."}|0x13efa0e6
+19:15:12.0 (45744592)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|null
+19:15:12.0 (45755893)|VARIABLE_ASSIGNMENT|[173]|this.refName|null|0x13efa0e6
+19:15:12.0 (45763833)|STATEMENT_EXECUTE|[95]
+19:15:12.0 (45786461)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Account Name","value":"United Oil & Gas Cor (2 more) ..."}|0x13efa0e6
+19:15:12.0 (45793570)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"name"
+19:15:12.0 (45799836)|VARIABLE_ASSIGNMENT|[175]|this.api|"name"|0x13efa0e6
+19:15:12.0 (45806204)|STATEMENT_EXECUTE|[96]
+19:15:12.0 (45859340)|HEAP_ALLOCATE|[96]|Bytes:8
+19:15:12.0 (45889057)|HEAP_ALLOCATE|[96]|Bytes:12
+19:15:12.0 (45908867)|HEAP_ALLOCATE|[96]|Bytes:6
+19:15:12.0 (45936604)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"api":"name","label":"Account Name","value":"United Oil & Gas Cor (2 more) ..."}|0x13efa0e6
+19:15:12.0 (45944721)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"STRING"
+19:15:12.0 (45953098)|VARIABLE_ASSIGNMENT|[177]|this.type|"STRING"|0x13efa0e6
+19:15:12.0 (45961188)|STATEMENT_EXECUTE|[98]
+19:15:12.0 (45963842)|HEAP_ALLOCATE|[98]|Bytes:4
+19:15:12.0 (46000970)|HEAP_ALLOCATE|[98]|Bytes:115
+19:15:12.0 (46013747)|HEAP_ALLOCATE|[98]|Bytes:119
+19:15:12.0 (46023574)|USER_DEBUG|[98]|DEBUG|ow==objectWrapper:[api=name, iconUrl=null, label=Account Name, refName=null, type=STRING, value=United Oil & Gas Corp.]
+19:15:12.0 (46031221)|STATEMENT_EXECUTE|[99]
+19:15:12.0 (46050995)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+19:15:12.0 (46065135)|HEAP_ALLOCATE|[88]|Bytes:5
+19:15:12.0 (46073369)|HEAP_ALLOCATE|[88]|Bytes:13
+19:15:12.0 (46079180)|VARIABLE_SCOPE_BEGIN|[88]|st|String|false|false
+19:15:12.0 (46088332)|VARIABLE_ASSIGNMENT|[88]|st|"accountnumber"
+19:15:12.0 (46093048)|STATEMENT_EXECUTE|[88]
+19:15:12.0 (46101232)|STATEMENT_EXECUTE|[89]
+19:15:12.0 (46102671)|STATEMENT_EXECUTE|[90]
+19:15:12.0 (46107092)|METHOD_ENTRY|[90]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (46112706)|VARIABLE_SCOPE_BEGIN|[136]|objName|String|false|false
+19:15:12.0 (46119901)|VARIABLE_ASSIGNMENT|[136]|objName|"Account"
+19:15:12.0 (46123083)|VARIABLE_SCOPE_BEGIN|[136]|fieldApi|String|false|false
+19:15:12.0 (46129103)|VARIABLE_ASSIGNMENT|[136]|fieldApi|"accountnumber"
+19:15:12.0 (46133028)|STATEMENT_EXECUTE|[136]
+19:15:12.0 (46134142)|STATEMENT_EXECUTE|[137]
+19:15:12.0 (46160445)|VARIABLE_SCOPE_BEGIN|[137]|leadSchema|Schema.SObjectType|true|false
+19:15:12.0 (46220411)|VARIABLE_ASSIGNMENT|[137]|leadSchema|"common.apex.runtime.impl.ApexSObjectTypeToken@2884ecda"|0x2884ecda
+19:15:12.0 (46227800)|STATEMENT_EXECUTE|[138]
+19:15:12.0 (46244269)|HEAP_ALLOCATE|[138]|Bytes:4
+19:15:12.0 (46450868)|HEAP_ALLOCATE|[138]|Bytes:296
+19:15:12.0 (46462744)|METHOD_EXIT|[90]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (46469421)|VARIABLE_SCOPE_BEGIN|[90]|fieldMap|Map<String,Schema.SObjectField>|true|false
+19:15:12.0 (46610192)|VARIABLE_ASSIGNMENT|[90]|fieldMap|"{acchierarchy__haschildwithchanges__c=accHierarchy__hasChildWithChanges__c, acchierarchy__hierarchy_parents__c=accHierarchy__Hierarchy_Parents__c, acchierarchy__on_previous_hierarchy_level__c=accHierarchy__On_Previous_Hierarchy_Level__c, acchierarchy__topparentid__c=accHierarchy__TopParentId__c, accountnumber=AccountNumber, accountsource=AccountSource, active__c=Active__c, annualrevenue=AnnualRevenue, billingaddress=BillingAddress, billingcity=BillingCity, ...}"|0x676faf9a
+19:15:12.0 (46623887)|STATEMENT_EXECUTE|[91]
+19:15:12.0 (46630468)|HEAP_ALLOCATE|[91]|Bytes:28
+19:15:12.0 (46639247)|CONSTRUCTOR_ENTRY|[91]|01p2800000FELrp|<init>()
+19:15:12.0 (46646098)|VARIABLE_SCOPE_BEGIN|[167]|this|RecentlyViewedRecords.objectWrapper|true|false
+19:15:12.0 (46668585)|VARIABLE_ASSIGNMENT|[167]|this|{}|0x9e9db01
+19:15:12.0 (46683858)|STATEMENT_EXECUTE|[167]
+19:15:12.0 (46685132)|STATEMENT_EXECUTE|[169]
+19:15:12.0 (46686059)|STATEMENT_EXECUTE|[171]
+19:15:12.0 (46686904)|STATEMENT_EXECUTE|[173]
+19:15:12.0 (46688084)|STATEMENT_EXECUTE|[175]
+19:15:12.0 (46689080)|STATEMENT_EXECUTE|[177]
+19:15:12.0 (46689942)|STATEMENT_EXECUTE|[179]
+19:15:12.0 (46692772)|CONSTRUCTOR_EXIT|[91]|01p2800000FELrp|<init>()
+19:15:12.0 (46698510)|VARIABLE_SCOPE_BEGIN|[91]|ow|RecentlyViewedRecords.objectWrapper|true|false
+19:15:12.0 (46715800)|VARIABLE_ASSIGNMENT|[91]|ow|{}|0x9e9db01
+19:15:12.0 (46720639)|STATEMENT_EXECUTE|[92]
+19:15:12.0 (46760892)|HEAP_ALLOCATE|[92]|Bytes:8
+19:15:12.0 (46771689)|HEAP_ALLOCATE|[92]|Bytes:14
+19:15:12.0 (46789721)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{}|0x9e9db01
+19:15:12.0 (46797101)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"Account Number"
+19:15:12.0 (46805605)|VARIABLE_ASSIGNMENT|[169]|this.label|"Account Number"|0x9e9db01
+19:15:12.0 (46813471)|STATEMENT_EXECUTE|[93]
+19:15:12.0 (46847590)|HEAP_ALLOCATE|[93]|Bytes:8
+19:15:12.0 (46873537)|HEAP_ALLOCATE|[93]|Bytes:8
+19:15:12.0 (46903800)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Account Number"}|0x9e9db01
+19:15:12.0 (46911756)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"CD355118"
+19:15:12.0 (46919537)|VARIABLE_ASSIGNMENT|[171]|this.value|"CD355118"|0x9e9db01
+19:15:12.0 (46926935)|STATEMENT_EXECUTE|[94]
+19:15:12.0 (46948331)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Account Number","value":"CD355118"}|0x9e9db01
+19:15:12.0 (46955577)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|null
+19:15:12.0 (46961270)|VARIABLE_ASSIGNMENT|[173]|this.refName|null|0x9e9db01
+19:15:12.0 (46968213)|STATEMENT_EXECUTE|[95]
+19:15:12.0 (46980607)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Account Number","value":"CD355118"}|0x9e9db01
+19:15:12.0 (46987454)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"accountnumber"
+19:15:12.0 (46992715)|VARIABLE_ASSIGNMENT|[175]|this.api|"accountnumber"|0x9e9db01
+19:15:12.0 (46998937)|STATEMENT_EXECUTE|[96]
+19:15:12.0 (47030241)|HEAP_ALLOCATE|[96]|Bytes:8
+19:15:12.0 (47054876)|HEAP_ALLOCATE|[96]|Bytes:12
+19:15:12.0 (47071265)|HEAP_ALLOCATE|[96]|Bytes:6
+19:15:12.0 (47095643)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"api":"accountnumber","label":"Account Number","value":"CD355118"}|0x9e9db01
+19:15:12.0 (47103562)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"STRING"
+19:15:12.0 (47109941)|VARIABLE_ASSIGNMENT|[177]|this.type|"STRING"|0x9e9db01
+19:15:12.0 (47116282)|STATEMENT_EXECUTE|[98]
+19:15:12.0 (47136504)|HEAP_ALLOCATE|[98]|Bytes:112
+19:15:12.0 (47146732)|HEAP_ALLOCATE|[98]|Bytes:116
+19:15:12.0 (47155642)|USER_DEBUG|[98]|DEBUG|ow==objectWrapper:[api=accountnumber, iconUrl=null, label=Account Number, refName=null, type=STRING, value=CD355118]
+19:15:12.0 (47162503)|STATEMENT_EXECUTE|[99]
+19:15:12.0 (47168305)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+19:15:12.0 (47179655)|HEAP_ALLOCATE|[88]|Bytes:5
+19:15:12.0 (47188146)|HEAP_ALLOCATE|[88]|Bytes:9
+19:15:12.0 (47193972)|VARIABLE_SCOPE_BEGIN|[88]|st|String|false|false
+19:15:12.0 (47203519)|VARIABLE_ASSIGNMENT|[88]|st|"active__c"
+19:15:12.0 (47207684)|STATEMENT_EXECUTE|[88]
+19:15:12.0 (47215564)|STATEMENT_EXECUTE|[89]
+19:15:12.0 (47216540)|STATEMENT_EXECUTE|[90]
+19:15:12.0 (47220855)|METHOD_ENTRY|[90]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (47225991)|VARIABLE_SCOPE_BEGIN|[136]|objName|String|false|false
+19:15:12.0 (47233530)|VARIABLE_ASSIGNMENT|[136]|objName|"Account"
+19:15:12.0 (47237009)|VARIABLE_SCOPE_BEGIN|[136]|fieldApi|String|false|false
+19:15:12.0 (47243231)|VARIABLE_ASSIGNMENT|[136]|fieldApi|"active__c"
+19:15:12.0 (47247819)|STATEMENT_EXECUTE|[136]
+19:15:12.0 (47248840)|STATEMENT_EXECUTE|[137]
+19:15:12.0 (47259374)|VARIABLE_SCOPE_BEGIN|[137]|leadSchema|Schema.SObjectType|true|false
+19:15:12.0 (47311690)|VARIABLE_ASSIGNMENT|[137]|leadSchema|"common.apex.runtime.impl.ApexSObjectTypeToken@2884ecda"|0x2884ecda
+19:15:12.0 (47318860)|STATEMENT_EXECUTE|[138]
+19:15:12.0 (47334240)|HEAP_ALLOCATE|[138]|Bytes:4
+19:15:12.0 (47541316)|HEAP_ALLOCATE|[138]|Bytes:296
+19:15:12.0 (47552494)|METHOD_EXIT|[90]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (47560333)|VARIABLE_SCOPE_BEGIN|[90]|fieldMap|Map<String,Schema.SObjectField>|true|false
+19:15:12.0 (47693766)|VARIABLE_ASSIGNMENT|[90]|fieldMap|"{acchierarchy__haschildwithchanges__c=accHierarchy__hasChildWithChanges__c, acchierarchy__hierarchy_parents__c=accHierarchy__Hierarchy_Parents__c, acchierarchy__on_previous_hierarchy_level__c=accHierarchy__On_Previous_Hierarchy_Level__c, acchierarchy__topparentid__c=accHierarchy__TopParentId__c, accountnumber=AccountNumber, accountsource=AccountSource, active__c=Active__c, annualrevenue=AnnualRevenue, billingaddress=BillingAddress, billingcity=BillingCity, ...}"|0x5c197276
+19:15:12.0 (47708112)|STATEMENT_EXECUTE|[91]
+19:15:12.0 (47713636)|HEAP_ALLOCATE|[91]|Bytes:28
+19:15:12.0 (47721491)|CONSTRUCTOR_ENTRY|[91]|01p2800000FELrp|<init>()
+19:15:12.0 (47727125)|VARIABLE_SCOPE_BEGIN|[167]|this|RecentlyViewedRecords.objectWrapper|true|false
+19:15:12.0 (47748047)|VARIABLE_ASSIGNMENT|[167]|this|{}|0x48122ed7
+19:15:12.0 (47762033)|STATEMENT_EXECUTE|[167]
+19:15:12.0 (47763219)|STATEMENT_EXECUTE|[169]
+19:15:12.0 (47764075)|STATEMENT_EXECUTE|[171]
+19:15:12.0 (47764901)|STATEMENT_EXECUTE|[173]
+19:15:12.0 (47765710)|STATEMENT_EXECUTE|[175]
+19:15:12.0 (47766511)|STATEMENT_EXECUTE|[177]
+19:15:12.0 (47767343)|STATEMENT_EXECUTE|[179]
+19:15:12.0 (47770042)|CONSTRUCTOR_EXIT|[91]|01p2800000FELrp|<init>()
+19:15:12.0 (47775631)|VARIABLE_SCOPE_BEGIN|[91]|ow|RecentlyViewedRecords.objectWrapper|true|false
+19:15:12.0 (47790973)|VARIABLE_ASSIGNMENT|[91]|ow|{}|0x48122ed7
+19:15:12.0 (47796067)|STATEMENT_EXECUTE|[92]
+19:15:12.0 (47840724)|HEAP_ALLOCATE|[92]|Bytes:8
+19:15:12.0 (47852769)|HEAP_ALLOCATE|[92]|Bytes:6
+19:15:12.0 (47870828)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{}|0x48122ed7
+19:15:12.0 (47879251)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"Active"
+19:15:12.0 (47887333)|VARIABLE_ASSIGNMENT|[169]|this.label|"Active"|0x48122ed7
+19:15:12.0 (47896621)|STATEMENT_EXECUTE|[93]
+19:15:12.0 (47923600)|HEAP_ALLOCATE|[93]|Bytes:3
+19:15:12.0 (47945126)|HEAP_ALLOCATE|[93]|Bytes:3
+19:15:12.0 (47969898)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Active"}|0x48122ed7
+19:15:12.0 (47976458)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"Yes"
+19:15:12.0 (47983165)|VARIABLE_ASSIGNMENT|[171]|this.value|"Yes"|0x48122ed7
+19:15:12.0 (47990875)|STATEMENT_EXECUTE|[94]
+19:15:12.0 (48010926)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Active","value":"Yes"}|0x48122ed7
+19:15:12.0 (48018740)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|null
+19:15:12.0 (48024630)|VARIABLE_ASSIGNMENT|[173]|this.refName|null|0x48122ed7
+19:15:12.0 (48031213)|STATEMENT_EXECUTE|[95]
+19:15:12.0 (48043243)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Active","value":"Yes"}|0x48122ed7
+19:15:12.0 (48050237)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"active__c"
+19:15:12.0 (48055451)|VARIABLE_ASSIGNMENT|[175]|this.api|"active__c"|0x48122ed7
+19:15:12.0 (48061449)|STATEMENT_EXECUTE|[96]
+19:15:12.0 (48091175)|HEAP_ALLOCATE|[96]|Bytes:8
+19:15:12.0 (48115424)|HEAP_ALLOCATE|[96]|Bytes:12
+19:15:12.0 (48131710)|HEAP_ALLOCATE|[96]|Bytes:8
+19:15:12.0 (48155183)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"api":"active__c","label":"Active","value":"Yes"}|0x48122ed7
+19:15:12.0 (48162446)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"PICKLIST"
+19:15:12.0 (48169155)|VARIABLE_ASSIGNMENT|[177]|this.type|"PICKLIST"|0x48122ed7
+19:15:12.0 (48175795)|STATEMENT_EXECUTE|[98]
+19:15:12.0 (48195497)|HEAP_ALLOCATE|[98]|Bytes:97
+19:15:12.0 (48205597)|HEAP_ALLOCATE|[98]|Bytes:101
+19:15:12.0 (48213788)|USER_DEBUG|[98]|DEBUG|ow==objectWrapper:[api=active__c, iconUrl=null, label=Active, refName=null, type=PICKLIST, value=Yes]
+19:15:12.0 (48220358)|STATEMENT_EXECUTE|[99]
+19:15:12.0 (48225628)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+19:15:12.0 (48236995)|HEAP_ALLOCATE|[88]|Bytes:5
+19:15:12.0 (48245192)|HEAP_ALLOCATE|[88]|Bytes:19
+19:15:12.0 (48250757)|VARIABLE_SCOPE_BEGIN|[88]|st|String|false|false
+19:15:12.0 (48259797)|VARIABLE_ASSIGNMENT|[88]|st|"customerpriority__c"
+19:15:12.0 (48264176)|STATEMENT_EXECUTE|[88]
+19:15:12.0 (48272353)|STATEMENT_EXECUTE|[89]
+19:15:12.0 (48273389)|STATEMENT_EXECUTE|[90]
+19:15:12.0 (48280931)|METHOD_ENTRY|[90]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (48286650)|VARIABLE_SCOPE_BEGIN|[136]|objName|String|false|false
+19:15:12.0 (48294063)|VARIABLE_ASSIGNMENT|[136]|objName|"Account"
+19:15:12.0 (48297443)|VARIABLE_SCOPE_BEGIN|[136]|fieldApi|String|false|false
+19:15:12.0 (48303434)|VARIABLE_ASSIGNMENT|[136]|fieldApi|"customerpriority__c"
+19:15:12.0 (48308023)|STATEMENT_EXECUTE|[136]
+19:15:12.0 (48309166)|STATEMENT_EXECUTE|[137]
+19:15:12.0 (48319918)|VARIABLE_SCOPE_BEGIN|[137]|leadSchema|Schema.SObjectType|true|false
+19:15:12.0 (48371732)|VARIABLE_ASSIGNMENT|[137]|leadSchema|"common.apex.runtime.impl.ApexSObjectTypeToken@2884ecda"|0x2884ecda
+19:15:12.0 (48379015)|STATEMENT_EXECUTE|[138]
+19:15:12.0 (48394095)|HEAP_ALLOCATE|[138]|Bytes:4
+19:15:12.0 (48604355)|HEAP_ALLOCATE|[138]|Bytes:296
+19:15:12.0 (48615620)|METHOD_EXIT|[90]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (48622485)|VARIABLE_SCOPE_BEGIN|[90]|fieldMap|Map<String,Schema.SObjectField>|true|false
+19:15:12.0 (48760847)|VARIABLE_ASSIGNMENT|[90]|fieldMap|"{acchierarchy__haschildwithchanges__c=accHierarchy__hasChildWithChanges__c, acchierarchy__hierarchy_parents__c=accHierarchy__Hierarchy_Parents__c, acchierarchy__on_previous_hierarchy_level__c=accHierarchy__On_Previous_Hierarchy_Level__c, acchierarchy__topparentid__c=accHierarchy__TopParentId__c, accountnumber=AccountNumber, accountsource=AccountSource, active__c=Active__c, annualrevenue=AnnualRevenue, billingaddress=BillingAddress, billingcity=BillingCity, ...}"|0x521b5b30
+19:15:12.0 (48774427)|STATEMENT_EXECUTE|[91]
+19:15:12.0 (48779654)|HEAP_ALLOCATE|[91]|Bytes:28
+19:15:12.0 (48787438)|CONSTRUCTOR_ENTRY|[91]|01p2800000FELrp|<init>()
+19:15:12.0 (48793789)|VARIABLE_SCOPE_BEGIN|[167]|this|RecentlyViewedRecords.objectWrapper|true|false
+19:15:12.0 (48814015)|VARIABLE_ASSIGNMENT|[167]|this|{}|0x156da3a1
+19:15:12.0 (48833317)|STATEMENT_EXECUTE|[167]
+19:15:12.0 (48834648)|STATEMENT_EXECUTE|[169]
+19:15:12.0 (48835527)|STATEMENT_EXECUTE|[171]
+19:15:12.0 (48836333)|STATEMENT_EXECUTE|[173]
+19:15:12.0 (48837196)|STATEMENT_EXECUTE|[175]
+19:15:12.0 (48837999)|STATEMENT_EXECUTE|[177]
+19:15:12.0 (48838803)|STATEMENT_EXECUTE|[179]
+19:15:12.0 (48841563)|CONSTRUCTOR_EXIT|[91]|01p2800000FELrp|<init>()
+19:15:12.0 (48847811)|VARIABLE_SCOPE_BEGIN|[91]|ow|RecentlyViewedRecords.objectWrapper|true|false
+19:15:12.0 (48862380)|VARIABLE_ASSIGNMENT|[91]|ow|{}|0x156da3a1
+19:15:12.0 (48867130)|STATEMENT_EXECUTE|[92]
+19:15:12.0 (48907164)|HEAP_ALLOCATE|[92]|Bytes:8
+19:15:12.0 (48918513)|HEAP_ALLOCATE|[92]|Bytes:17
+19:15:12.0 (48939219)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{}|0x156da3a1
+19:15:12.0 (48947731)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"Customer Priority"
+19:15:12.0 (48955777)|VARIABLE_ASSIGNMENT|[169]|this.label|"Customer Priority"|0x156da3a1
+19:15:12.0 (48963371)|STATEMENT_EXECUTE|[93]
+19:15:12.0 (48989874)|HEAP_ALLOCATE|[93]|Bytes:4
+19:15:12.0 (49006748)|HEAP_ALLOCATE|[93]|Bytes:4
+19:15:12.0 (49029513)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Customer Priority"}|0x156da3a1
+19:15:12.0 (49036772)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"High"
+19:15:12.0 (49047373)|VARIABLE_ASSIGNMENT|[171]|this.value|"High"|0x156da3a1
+19:15:12.0 (49054494)|STATEMENT_EXECUTE|[94]
+19:15:12.0 (49074929)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Customer Priority","value":"High"}|0x156da3a1
+19:15:12.0 (49082732)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|null
+19:15:12.0 (49088724)|VARIABLE_ASSIGNMENT|[173]|this.refName|null|0x156da3a1
+19:15:12.0 (49095210)|STATEMENT_EXECUTE|[95]
+19:15:12.0 (49107072)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Customer Priority","value":"High"}|0x156da3a1
+19:15:12.0 (49113516)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"customerpriority__c"
+19:15:12.0 (49119562)|VARIABLE_ASSIGNMENT|[175]|this.api|"customerpriority__c"|0x156da3a1
+19:15:12.0 (49125769)|STATEMENT_EXECUTE|[96]
+19:15:12.0 (49153675)|HEAP_ALLOCATE|[96]|Bytes:8
+19:15:12.0 (49177817)|HEAP_ALLOCATE|[96]|Bytes:12
+19:15:12.0 (49194067)|HEAP_ALLOCATE|[96]|Bytes:8
+19:15:12.0 (49217837)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"api":"customerpriority__c","label":"Customer Priority","value":"High"}|0x156da3a1
+19:15:12.0 (49225449)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"PICKLIST"
+19:15:12.0 (49231406)|VARIABLE_ASSIGNMENT|[177]|this.type|"PICKLIST"|0x156da3a1
+19:15:12.0 (49238065)|STATEMENT_EXECUTE|[98]
+19:15:12.0 (49258177)|HEAP_ALLOCATE|[98]|Bytes:119
+19:15:12.0 (49268572)|HEAP_ALLOCATE|[98]|Bytes:123
+19:15:12.0 (49276596)|USER_DEBUG|[98]|DEBUG|ow==objectWrapper:[api=customerpriority__c, iconUrl=null, label=Customer Priority, refName=null, type=PICKLIST, value=High]
+19:15:12.0 (49284095)|STATEMENT_EXECUTE|[99]
+19:15:12.0 (49289512)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+19:15:12.0 (49303674)|HEAP_ALLOCATE|[88]|Bytes:5
+19:15:12.0 (49312090)|HEAP_ALLOCATE|[88]|Bytes:11
+19:15:12.0 (49318084)|VARIABLE_SCOPE_BEGIN|[88]|st|String|false|false
+19:15:12.0 (49327287)|VARIABLE_ASSIGNMENT|[88]|st|"createddate"
+19:15:12.0 (49331661)|STATEMENT_EXECUTE|[88]
+19:15:12.0 (49339222)|STATEMENT_EXECUTE|[89]
+19:15:12.0 (49340185)|STATEMENT_EXECUTE|[90]
+19:15:12.0 (49344239)|METHOD_ENTRY|[90]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (49349417)|VARIABLE_SCOPE_BEGIN|[136]|objName|String|false|false
+19:15:12.0 (49356716)|VARIABLE_ASSIGNMENT|[136]|objName|"Account"
+19:15:12.0 (49360379)|VARIABLE_SCOPE_BEGIN|[136]|fieldApi|String|false|false
+19:15:12.0 (49366105)|VARIABLE_ASSIGNMENT|[136]|fieldApi|"createddate"
+19:15:12.0 (49370365)|STATEMENT_EXECUTE|[136]
+19:15:12.0 (49371387)|STATEMENT_EXECUTE|[137]
+19:15:12.0 (49382166)|VARIABLE_SCOPE_BEGIN|[137]|leadSchema|Schema.SObjectType|true|false
+19:15:12.0 (49433779)|VARIABLE_ASSIGNMENT|[137]|leadSchema|"common.apex.runtime.impl.ApexSObjectTypeToken@2884ecda"|0x2884ecda
+19:15:12.0 (49440348)|STATEMENT_EXECUTE|[138]
+19:15:12.0 (49455270)|HEAP_ALLOCATE|[138]|Bytes:4
+19:15:12.0 (49660059)|HEAP_ALLOCATE|[138]|Bytes:296
+19:15:12.0 (49671736)|METHOD_EXIT|[90]|01p2800000FELrp|RecentlyViewedRecords.findFieldInfo(String, String)
+19:15:12.0 (49677876)|VARIABLE_SCOPE_BEGIN|[90]|fieldMap|Map<String,Schema.SObjectField>|true|false
+19:15:12.0 (49811928)|VARIABLE_ASSIGNMENT|[90]|fieldMap|"{acchierarchy__haschildwithchanges__c=accHierarchy__hasChildWithChanges__c, acchierarchy__hierarchy_parents__c=accHierarchy__Hierarchy_Parents__c, acchierarchy__on_previous_hierarchy_level__c=accHierarchy__On_Previous_Hierarchy_Level__c, acchierarchy__topparentid__c=accHierarchy__TopParentId__c, accountnumber=AccountNumber, accountsource=AccountSource, active__c=Active__c, annualrevenue=AnnualRevenue, billingaddress=BillingAddress, billingcity=BillingCity, ...}"|0x270f9b8
+19:15:12.0 (49832145)|STATEMENT_EXECUTE|[91]
+19:15:12.0 (49837495)|HEAP_ALLOCATE|[91]|Bytes:28
+19:15:12.0 (49845346)|CONSTRUCTOR_ENTRY|[91]|01p2800000FELrp|<init>()
+19:15:12.0 (49851094)|VARIABLE_SCOPE_BEGIN|[167]|this|RecentlyViewedRecords.objectWrapper|true|false
+19:15:12.0 (49870739)|VARIABLE_ASSIGNMENT|[167]|this|{}|0x5b4d0bb7
+19:15:12.0 (49884717)|STATEMENT_EXECUTE|[167]
+19:15:12.0 (49885916)|STATEMENT_EXECUTE|[169]
+19:15:12.0 (49886809)|STATEMENT_EXECUTE|[171]
+19:15:12.0 (49887651)|STATEMENT_EXECUTE|[173]
+19:15:12.0 (49888452)|STATEMENT_EXECUTE|[175]
+19:15:12.0 (49889330)|STATEMENT_EXECUTE|[177]
+19:15:12.0 (49890453)|STATEMENT_EXECUTE|[179]
+19:15:12.0 (49894124)|CONSTRUCTOR_EXIT|[91]|01p2800000FELrp|<init>()
+19:15:12.0 (49900927)|VARIABLE_SCOPE_BEGIN|[91]|ow|RecentlyViewedRecords.objectWrapper|true|false
+19:15:12.0 (49916420)|VARIABLE_ASSIGNMENT|[91]|ow|{}|0x5b4d0bb7
+19:15:12.0 (49921716)|STATEMENT_EXECUTE|[92]
+19:15:12.0 (49958208)|HEAP_ALLOCATE|[92]|Bytes:8
+19:15:12.0 (49969122)|HEAP_ALLOCATE|[92]|Bytes:12
+19:15:12.0 (49986506)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{}|0x5b4d0bb7
+19:15:12.0 (49994047)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"Created Date"
+19:15:12.0 (50001452)|VARIABLE_ASSIGNMENT|[169]|this.label|"Created Date"|0x5b4d0bb7
+19:15:12.0 (50009700)|STATEMENT_EXECUTE|[93]
+19:15:12.0 (50039281)|HEAP_ALLOCATE|[93]|Bytes:56
+19:15:12.0 (50059818)|HEAP_ALLOCATE|[93]|Bytes:19
+19:15:12.0 (50082909)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Created Date"}|0x5b4d0bb7
+19:15:12.0 (50094538)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"2015-09-25 10:27:41"
+19:15:12.0 (50102116)|VARIABLE_ASSIGNMENT|[171]|this.value|"2015-09-25 10:27:41"|0x5b4d0bb7
+19:15:12.0 (50109912)|STATEMENT_EXECUTE|[94]
+19:15:12.0 (50130755)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Created Date","value":"2015-09-25 10:27:41"}|0x5b4d0bb7
+19:15:12.0 (50137900)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|null
+19:15:12.0 (50144052)|VARIABLE_ASSIGNMENT|[173]|this.refName|null|0x5b4d0bb7
+19:15:12.0 (50150156)|STATEMENT_EXECUTE|[95]
+19:15:12.0 (50161986)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"label":"Created Date","value":"2015-09-25 10:27:41"}|0x5b4d0bb7
+19:15:12.0 (50168577)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"createddate"
+19:15:12.0 (50174855)|VARIABLE_ASSIGNMENT|[175]|this.api|"createddate"|0x5b4d0bb7
+19:15:12.0 (50181052)|STATEMENT_EXECUTE|[96]
+19:15:12.0 (50207885)|HEAP_ALLOCATE|[96]|Bytes:8
+19:15:12.0 (50231506)|HEAP_ALLOCATE|[96]|Bytes:12
+19:15:12.0 (50248296)|HEAP_ALLOCATE|[96]|Bytes:8
+19:15:12.0 (50271635)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"api":"createddate","label":"Created Date","value":"2015-09-25 10:27:41"}|0x5b4d0bb7
+19:15:12.0 (50278738)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"DATETIME"
+19:15:12.0 (50285859)|VARIABLE_ASSIGNMENT|[177]|this.type|"DATETIME"|0x5b4d0bb7
+19:15:12.0 (50292606)|STATEMENT_EXECUTE|[98]
+19:15:12.0 (50312551)|HEAP_ALLOCATE|[98]|Bytes:121
+19:15:12.0 (50322780)|HEAP_ALLOCATE|[98]|Bytes:125
+19:15:12.0 (50330514)|USER_DEBUG|[98]|DEBUG|ow==objectWrapper:[api=createddate, iconUrl=null, label=Created Date, refName=null, type=DATETIME, value=2015-09-25 10:27:41]
+19:15:12.0 (50338678)|STATEMENT_EXECUTE|[99]
+19:15:12.0 (50344166)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+19:15:12.0 (50356152)|HEAP_ALLOCATE|[88]|Bytes:5
+19:15:12.0 (50368766)|VARIABLE_ASSIGNMENT|[88]|st|null
+19:15:12.0 (50373451)|STATEMENT_EXECUTE|[102]
+19:15:12.0 (50379916)|SYSTEM_MODE_EXIT|false
+19:15:12.50 (50402646)|CUMULATIVE_LIMIT_USAGE
+19:15:12.50 (50402646)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+19:15:12.50 (50402646)|CUMULATIVE_LIMIT_USAGE_END
+
+19:15:12.0 (50431543)|CODE_UNIT_FINISHED|RecentlyViewedRecords.queryCompactLayout
+19:15:12.0 (51846267)|CODE_UNIT_STARTED|[EXTERNAL]|Aura
+19:15:12.0 (51887535)|CODE_UNIT_FINISHED|Aura
+19:15:12.0 (52581277)|CODE_UNIT_STARTED|[EXTERNAL]|Aura
+19:15:12.0 (52608441)|CODE_UNIT_FINISHED|Aura
+19:15:12.0 (53195387)|CODE_UNIT_STARTED|[EXTERNAL]|Aura
+19:15:12.0 (53218659)|CODE_UNIT_FINISHED|Aura
+19:15:12.0 (53757837)|CODE_UNIT_STARTED|[EXTERNAL]|Aura
+19:15:12.0 (53780391)|CODE_UNIT_FINISHED|Aura
+19:15:12.0 (54415566)|CODE_UNIT_STARTED|[EXTERNAL]|Aura
+19:15:12.0 (54436890)|CODE_UNIT_FINISHED|Aura
+19:15:12.0 (54455206)|CODE_UNIT_FINISHED|Aura
+19:15:12.0 (55122010)|EXECUTION_FINISHED

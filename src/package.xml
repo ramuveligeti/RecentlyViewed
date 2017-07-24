@@ -8,6 +8,7 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>RecentlyViewedEvent</members>
         <members>hover</members>
         <members>hoverComponent</members>
         <members>recentlyViewed</members>

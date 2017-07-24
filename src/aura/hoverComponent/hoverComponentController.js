@@ -94,6 +94,12 @@
         var panel = component.find('hoverCmp');
         console.log('panel=='+panel);
         $A.util.addClass(panel,'hidden');
-    }
-    
+    },
+    pushRecId : function(component,event,helper) {
+        var event = component.getEvent("getRecId");
+        event.setParams({
+            'recId':component.get("v.id")
+        });
+        event.fire();         
+   }
 })
